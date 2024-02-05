@@ -19,9 +19,16 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "custom_data_Q6Y6DU": {
+      "type": "custom-data",
+      "settings": {
+        "custom-id": "Custom Section Made by Local Development"
+      }
     }
   },
   "order": [
-    "header"
+    "header",
+    "custom_data_Q6Y6DU"
   ]
 }
