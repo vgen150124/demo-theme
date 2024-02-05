@@ -1,0 +1,26 @@
+<style>
+  .customColor {
+    color: red;
+  }
+</style>
+
+<h2>Custom Section</h2>
+
+<h5 class="customColor">{{ section.settings['custom-id'] }}</h5>
+{% schema %}
+{
+  "name": "Custom Section",
+  "presets": [
+    {
+      "name": "Custom Section"
+    }
+  ],
+  "settings": [
+    {
+      "id": "custom-id",
+      "type": "text",
+      "label": "custom-label"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,11 @@
+{
+  "sections": {
+    "main": {
+      "type": "custom-data",
+      "settings": {
+        "custom-id": "Hello how are you ?"
+      }
+    }
+  },
+  "order": ["main"]
+}
