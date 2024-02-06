@@ -2,6 +2,12 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "custom_data_zUWEp3": {
+      "type": "custom-data",
+      "settings": {
+        "custom-id": "Footer Custom Section Development"
+      }
+    },
     "footer": {
       "type": "footer",
       "settings": {
@@ -21,6 +27,7 @@
     }
   },
   "order": [
+    "custom_data_zUWEp3",
     "footer"
   ]
 }
